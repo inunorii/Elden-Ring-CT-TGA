@@ -682,7 +682,10 @@
  - Custom FPS Limit
 
 
-[unreleased]: https://github.com/inunorii/Elden-Ring-CT-TGA/compare/v1.14.1...dev
+[unreleased]: https://github.com/inunorii/Elden-Ring-CT-TGA/compare/v1.16.1...dev
+[v1.16.1]: https://github.com/inunorii/Elden-Ring-CT-TGA/compare/v1.16.0...v1.16.1
+[v1.16.0]: https://github.com/inunorii/Elden-Ring-CT-TGA/compare/v1.15.0...v1.16.0
+[v1.15.0]: https://github.com/inunorii/Elden-Ring-CT-TGA/compare/v1.14.1...v1.15.0
 [v1.14.1]: https://github.com/inunorii/Elden-Ring-CT-TGA/compare/v1.14.0...v1.14.1
 [v1.14.0]: https://github.com/inunorii/Elden-Ring-CT-TGA/compare/v1.13.0...v1.14.0
 [v1.13.0]: https://github.com/inunorii/Elden-Ring-CT-TGA/compare/v1.12.1...v1.13.0
