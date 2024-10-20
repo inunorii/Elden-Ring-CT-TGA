@@ -1,5 +1,7 @@
 # Changelog
 ## [Unreleased]
+### Fixed
+ - Graphics header under OptionData
 
 ## [v1.16.1] - 2024-10-03
 ### Changed

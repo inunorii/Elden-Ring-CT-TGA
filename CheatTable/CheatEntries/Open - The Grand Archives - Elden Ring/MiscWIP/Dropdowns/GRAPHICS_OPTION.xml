@@ -1,0 +1,12 @@
+<CheatEntry>
+  <ID>108257</ID>
+  <Description>"GRAPHICS_OPTION"</Description>
+  <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:OFF
+1:LOW
+2:MEDIUM
+3:HIGH
+4:MAX
+5:CUSTOM
+</DropDownList>
+  <GroupHeader>1</GroupHeader>
+</CheatEntry>
