@@ -1,5 +1,7 @@
 # Changelog
 ## [Unreleased]
+### Changed
+ - Supported version to v1.16.0
 ### Fixed
  - Graphics header under OptionData
 
