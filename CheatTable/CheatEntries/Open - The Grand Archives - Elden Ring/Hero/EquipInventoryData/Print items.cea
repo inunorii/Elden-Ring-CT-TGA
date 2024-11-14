@@ -13,9 +13,9 @@ local inventoryList = readPointer(EquipInventoryData + 0x10 + keyOffset)
 local inventoryNum = readInteger(EquipInventoryData + 0x18 + keyOffset)
 
 local invName = {
-	[0] = "Player Inventory"
-	[1] = "Storage Chest"
-	[2] = "Key Items (Player Inventory)"
+	[0] = "Player Inventory",
+	[1] = "Storage Chest",
+	[2] = "Key Items (Player Inventory)",
 	[3] = "Key Items (Storage Chest)"
 }
 

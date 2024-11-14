@@ -1,11 +1,8 @@
+{$lua}
+if syntaxcheck then return end
 [ENABLE]
-alloc(EquipInventoryDataIdx,$10)
-registerSymbol(EquipInventoryDataIdx)
-
-EquipInventoryDataIdx:
-dd 00000000 // Idx
-dd 00000000 // Inv
+EquipInventoryDataIdx = allocateMemory(8, getAddress(process))
 
 [DISABLE]
-dealloc(EquipInventoryDataIdx)
-unregisterSymbol(EquipInventoryDataIdx)
+deAlloc(EquipInventoryDataIdx)
+EquipInventoryDataIdx = nil

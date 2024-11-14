@@ -4,6 +4,7 @@
  - Supported version to v1.16.0
 ### Fixed
  - Graphics header under OptionData
+ - "Print items" in EquipInventoryData
 
 ## [v1.16.1] - 2024-10-03
 ### Changed
