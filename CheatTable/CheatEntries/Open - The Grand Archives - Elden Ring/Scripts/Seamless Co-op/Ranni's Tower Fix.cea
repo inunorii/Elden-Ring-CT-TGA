@@ -49,8 +49,9 @@ local flagsBaseOn = {
 
 local flagsOn = {flagsBaseOn}
 local flagsOff = 1034500738 -- Toggled on when choosing to enter, and off when exhausting dialogue
-ef.batchSetFlags(flagsOn, 1, "RanniFlagsThread")
 ef.setFlag(flagsOff, 0)
+ef.batchSetFlags(flagsOn, 1, "RanniFlagsThread")
+
 
 disableMemrec(memrec, function() return not ef.RanniFlagsThread end)
 [DISABLE]
