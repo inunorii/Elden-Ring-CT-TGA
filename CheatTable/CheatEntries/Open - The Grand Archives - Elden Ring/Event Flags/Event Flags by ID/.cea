@@ -569,14 +569,12 @@ ef.categories = {
 62061:Map: Lake of Rot
 62062:Map: Mohgwyn Palace
 62063:Map: Siofra River
-62064:Map: Deeprooth Depths
+62064:Map: Deeproot Depths
 62080:Map: Gravesite Plain
 62081:Map: Scadu Altus
 62082:Map: Southern Shore
 62083:Map: Rauh Ruins
 62084:Map: Abyss
-62102:Map: Fringefolk Hero's Cave
-62103:Map: Stormfoot Catacombs
 82001:Show underground]],
 [[10010540: Limgrave - Chapel of Anticipation
 5613540: Limgrave - Deathtouched Catacombs 1
@@ -965,176 +963,165 @@ ef.categories = {
 3627:Yura - 3. Liurnia - Main Academy Gate
 3630:Yura - 4. 4th location
 3631:Yura - If killed in Limgrave?]],
-[[10000800:
-10000850:
-10010800:
-11000800:
-11000850:
-11050800:
-11050850:
-12010800:
-12010850:
-12020800:
-12020830:
-12020850:
-12030390:
-12030800:
-12030850:
-12040800:
-12050800:
-12080800:
-12090800:
-13000800:
-13000830:
-13000850:
-14000800:
-14000850:
-15000800:
-15000850:
-16000800:
-16000850:
-16000860:
-18000800:
-18000850:
-19000800:
-35000800:
-35000850:
-39200800:
-30000800:
-30010800:
-30020800:
-30110800:
-30040800:
-30050800:
-30050850:
-30030800:
-30060800:
-30080800:
-30090800:
-30100800:
-30100801:
-30120800:
-30120801:
-30070800:
-30130800:
-30140800:
-30150800:
-30160800:
-30170800:
-30180800:
-30190800:
-30200800:
-31000800:
-31010800:
-31020800:
-31030800:
-31150800:
-31170800:
-31040800:
-31050800:
-31060800:
-31070800:
-31090800:
-31180800:
-31190800:
-31190850:
-31210800:
-31100800:
-31200800:
-31110800:
-31120800:
-31220800:
-32000800:
-32010800:
-32020800:
-32040800:
-34120800:
-32050800:
-32050801:
-32070800:
-32080800:
-32110800:
-34130800:
-34140850:
-1044360800:
-1043370340:
-1042380800:
-1042380850:
-1042330800:
-1044350800:
-1042370800:
-1043330800:
-1044320342:
-1044320340:
-1043300800:
-1042360800:
-1043360800:
-1045390800:
-1034480800:
-1038410800:
-1033450800:
-1036500800:
-1033420800:
-1033430800:
-1038480800:
-1035500800:
-1037460800:
-1039430340:
-1036480340:
-1037420340:
-1036450340:
-1034450800:
-1034500800:
-1034420800:
-1035420800:
-1039440800:
-1037510800:
-1041520800:
-1038510800:
-1041500800:
-1040530800:
-1041510800:
-1042550800:
-1040520800:
-1045520800:
-1039500800:
-1041530800:
-1039510800:
-1044530800:
-1043530800:
-1037530800:
-1035530800:
-1036540800:
-1039540800:
-1037540810:
-1038520340:
-1047409800:
-1048379800:
-1048409800:
-1049379800:
-1049370850:
-1049389800:
-1051369800:
-1052380800:
-1049390800:
-1048410800:
-1049390850:
-1051400800:
-1052410800:
-1052410850:
-1051430800:
-1048510800:
-1049520800:
-1054560800:
-1053560800:
-1052520800:
-1052560800:
-1050570800:
-1050570850:
-1051570800:
-1050560800:
-1248550800:
-1048570800:
+[[10000800:Godrick the Grafted (Stormveil Castle)
+10000850:Margit the Fell (Stormhill)
+10010800:Grafted Scion (Chapel of Anticipation)
+11000800:Morgott, the Omen King (Leyndell, Royal Capital)
+11000850:Godfrey, First Elden Lord (Leyndell, Royal Capital)
+11050800:Hoarah Loux, Warrior (Leyndell, Capital of Ash)
+11050850:Sir Gideon Ofnir, the All-Knowing (Leyndell, Capital of Ash)
+12010850:Dragonkin Soldier (Lake of Rot)
+12020800:Valiant Gargoyles (Siofra Aqueduct)
+12020830:Dragonkin Soldier (Siofra River)
+12020850:Mimic Tear (Nokron, Eternal City)
+12030390:Crucible Knight Siluria (Deeproot Depths)
+12030800:Fia's Champions (Deeproot Depths)
+12030850:Lichdragon Fortissax (Deeproot Depths)
+12040800:Astel, Naturalborn of the Void (Lake of Rot)
+12050800:Mohg, Lord of Blood (Mohgwyn Dynasty Mausoleum)
+12080800:Ancestor Spirit (Siofra River)
+12090800:Regal Ancestor Spirit (Ancestral Woods)
+13000800:Maliketh, the Black Blade (Crumbling Farum Azula)
+13000830:Dragonlord Placidusax (Crumbling Farum Azula)
+13000850:Godskin Duo (Crumbling Farum Azula)
+14000800:Rennala, Queen of the Full Moon (Academy of Raya Lucaria)
+14000850:Red Wolf of Radagon (Academy of Raya Lucaria)
+15000800:Malenia, Blade of Miquella (Miquella's Haligtree)
+15000850:Loretta, Knight of the Haligtree (Miquella's Haligtree)
+16000800:Rykard, Lord of Blasphemy (Volcano Manor)
+16000850:Godskin Noble (Volcano Manor)
+16000860:Abductor Virgins (Volcano Manor)
+18000800:Ulcerated Tree Spirit (Fringefolk Hero's Grave)
+18000850:Soldier of Godrick (Cave of Knowledge)
+19000800:Elden Beast (Stone Platform)
+35000800:Mohg, the Omen (Subterranean Shunning-Grounds)
+35000850:Esgar, Priest of Blood (Leyndell Catacombs)
+30000800:Cemetery Shade (Tombsward Catacombs)
+30010800:Erdtree Burial Watchdog (Impaler's Catacombs)
+30020800:Erdtree Burial Watchdog (Stormfoot Catacombs)
+30110800:Black Knife Assassin (Deathtouched Catacombs)
+30040800:Grave Warden Duelist (Murkwater Catacombs)
+30050800:Cemetery Shade (Black Knife Catacombs)
+30050850:Black Knife Assaassin (Black Knife Catacombs)
+30030800:Spirit-Caller Snail (Road's End Catacombs)
+30060800:Erdtree Burial Watchdog (Cliffbottom Catacombs)
+30080800:Ancient Hero of Zamor (Sainted Hero's Grave)
+30090800:Red Wolf of the Champion (Gelmir Hero's Grave)
+30100800:Crucible Knight & Crucible Knight Ordovis (Azuria Hero's Grave)
+30120800:Perfumer Tricia & Misbegotten Warrior (Unsightly Catacombs)
+30070800:Erdtree Burial Watchdog (Wyndham Catacombs)
+30140800:Erdtree Burial Watchdog Duo (Minor Erdtree Catacombs)
+30150800:Cemetery Shade (Caelid Catacombs)
+30160800:Putrid Tree Spirit (War-Dead Catacombs)
+30170800:Ancient Hero of Zamor (Giant-Conquering Hero's Grave)
+30180800:Ulcerated Tree Spirit (Giants' Mountaintop Catacombs)
+30190800:Putrid Grave Warden Duelist (Consecrated Snowfield Catacombs)
+30200800:Stray Mimic Tear (Hidden Path to the Haligtree)
+31010800:Runebear (Earthbore Cave)
+31020800:Miranda the Blighted Bloom (Tombsward Cave)
+31030800:Beastman of Farum Azula (Groveside Cave)
+31150800:Demi-Human Chiefs (Coastal Cave)
+31170800:Guardian Golem (Highroad Cave)
+31040800:Cleanrot Knight (Stillwater Cave)
+31060800:Crystalian Duo (Academy Crystal Cave)
+31070800:Kindred of Rot Duo (Seethewater Cave)
+31090800:Demi-Human Queen Margot (Volcano Cave)
+31180800:Omenkiller & Miranda the Blighted Bloom (Perfumer's Grotto)
+31190800:Black Knife Assassin (Sage's Cave)
+31190850:Necromancer Garris (Sage's Cave)
+31210800:Frenzied Duelist (Gaol Cave)
+31200800:Cleanrot Knight Duo (Abandoned Cave)
+31110800:Putrid Crystallian Trio (Sellia Hideaway)
+31220800:Spirit-Caller Snail (Spiritcaller Cave)
+32000800:Scaly Misbegotten (Morne Tunnel)
+32020800:Crystalian (Raya Lucaria Crystal Tunnel)
+32040800:Stonedigger Troll (Old Altus Tunnel)
+34120800:Onyx Lord (Sealed Tunnel)
+32050800:Crystalian Duo (Altus Tunnel)
+32070800:Magma Wyrm (Gael Tunnel)
+32080800:Fallingstar Beast (Sellia Crystal Tunnel)
+32110800:Astel, Stars of Darkness (Yelough Anix Tunnel)
+34130800:Godskin Apostle (Divine Tower of Caelid)
+34140850:Fell Twins (Capital Outskirts)
+1044320850:Night's Cavalry (Weeping Peninsula)
+1044360800:Mad Pumpkin Head (Waypoint Ruins)
+1042380800:Deathbird (Stormhill)
+1042380850:Bell Bearing Hunter (Warmaster's Shack)
+1042330800:Ancient Hero of Zamor (Weeping Evergaol)
+1044350800:Bloodhound Knight Darriwil (Forlorn Hound's Evergaol)
+1042370800:Crucible Knight (Stormhill Evergaol)
+1043330800:Erdtree Avatar (Weeping Peninsula)
+1043300800:Leonine Misbegotten (Castle Morne)
+1042360800:Tree Sentinel (Limgrave)
+1044320800:Deathbird (Weeping Peninsula)
+1043360800:Flying Dragon Agheel (Limgrave)
+1043370800:Night's Cavalry (Limgrave)
+1045390800:Tibia Mariner (Summonwater Village)
+1034480800:Royal Revenant (Kingsrealm Ruins)
+1038410800:Adan, Thief of Fire (Malefactor's Evergaol)
+1033450800:Bols, Carian Knight (Cuckoo's Evergaol)
+1036500800:Onyx Lord (Royal Grave Evergaol)
+1033420800:Alecto, Black Knife Ringleader (Ringleader's Evergaol)
+1033430800:Erdtree Avatar (Liurnia of the Lakes)
+1038480800:Erdtree Avatar (Uld Palace Ruins)
+1035500800:Royal Knight Loretta (Caria Manor)
+1036450800:Death Rite Bird (Academy Gate Town)
+1037420800:Deathbird (Liurnia of the Lakes)
+1037460800:Bell Bearing Hunter (Church of Vows)
+1039430800:Night's Cavalry (Liurnia of the Lakes)
+1036480800:Night's Cavalry (Bellum Highway)
+1034450800:Glintstone Dragon Smarag (Liurnia of the Lakes)
+1034500800:Glintstone Dragon Adula (Three Sisters) (First encounter)
+1034420800:Glintstone Dragon Adula (Moonlight Altar) (Second encounter)
+1035420800:Omenkiller (Village of the Albinaurics)
+1039440800:Tibia Mariner (Liurnia of the Lakes)
+1037510800:Ancient Dragon Lansseax (Altus Plateau)
+1038510800:Demi-Human Queen Gilika (Lux Ruins)
+1041500800:Fallingstar Beast (Altus Plateau)
+1040530800:Sanguine Noble (Writheblood Ruins)
+1041510800:Tree Sentinel Duo (Altus Plateau)
+1042550800:Godskin Apostle (Dominula, Windmill Village)
+1040520800:Black Knife Assassin (Sainted Hero's Grave)
+1045520800:Draconic Tree Sentinel (Capital Outskirts)
+1038520800:Tibia Mariner (Wyndham Ruins)
+1039500800:Godefroy the Grafted (Golden Lineage Evergaol)
+1041530800:Wormface (Altus Plateau)
+1039510800:Night's Cavalry (Altus Plateau)
+1044530800:Deathbird (Capital Outskirts)
+1043530800:Bell Bearing Hunter (Hermit Merchant's Shack)
+1037530800:Demi-Human Queen Maggie (Mt. Gelmir)
+1035530800:Magma Wyrm (Mt. Gelmir)
+1036540800:Full-Grown Fallingstar Beast (Mt. Gelmir)
+1039540800:Elemer of the Briar (The Shaded Castle)
+1037540810:Ulcerated Tree Spirit (Mt. Gelmir)
+1047400800:Putrid Avatar (Caelid)
+1048370800:Dekaying Ekzykes (Caelid)
+1048400800:Mad Pumpkin Head Duo (Caelem Ruins)
+1049370800:Night's Cavalry (Caelid)
+1049370850:Death Rite Bird (Caelid)
+1049380800:Commander O'Niel (Swamp of Aeonia)
+1049390800:Nox Swordstress & Nox Priest (Sellia, Town of Sorcery)
+1048410800:Bell Bearing Hunter (Isolated Merchant's Shack)
+1049390850:Battlemage Hugues (Sellia Evergaol)
+1051400800:Putrid Avatar (Greyoll's Dragonbarrow)
+1052410800:Flying Dragon Greyll (Greyoll's Dragonbarrow)
+1052410850:Night's Cavalry (Greyoll's Dragonbarrow)
+1051430800:Black Blade Kindred (Greyoll's Dragonbarrow)
+1048510800:Night's Cavalry (Forbidden Lands)
+1049520800:Black Blade Kindred (Forbidden Lands)
+1050400800:Elder Dragon Greyoll (Greyoll's Dragonbarrow)
+1053560800:Roundtable Knight Vyke (Lord Contender's Evergaol)
+1052560800:Erdtree Avatar (Mountaintops of the Giants)
+1050570800:Death Rite Bird (Mountaintops of the Giants)
+1050570850:Putrid Avatar (Consecrated Snowfield)
+1051360800:Crucible Knight & Misbegotten Warrior (Redmane Castle)
+1051570800:Commander Niall (Castle Sol)
+1050560800:Great Wyrm Theodorix (Consecrated Snowfield)
+1248550800:Night's Cavalry (Consecrated Snowfield)
+1048570800:Death Rite Bird (Consecrated Snowfield)
+1252380800:Starscourge Radahn (Wailing Dunes)
+1252520800:Fire Giant (Flame Peak)
+1254560800:Borealis the Freezing Fog (Mountaintops of the Giants)
 20000800:Dancing Lion
 20010800:Radahn
 21000850:Golden Hippo
