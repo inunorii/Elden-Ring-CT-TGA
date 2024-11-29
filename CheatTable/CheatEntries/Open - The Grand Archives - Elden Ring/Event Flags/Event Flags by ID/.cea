@@ -1123,15 +1123,47 @@ ef.categories = {
 1252380800:Starscourge Radahn (Wailing Dunes)
 1252520800:Fire Giant (Flame Peak)
 1254560800:Borealis the Freezing Fog (Mountaintops of the Giants)
-20000800:Dancing Lion
-20010800:Radahn
-21000850:Golden Hippo
-21010800:Messmer
-28000800:Midra
-2044450800:Romina
-2048440800:Rellana
-2049480800:Gaius
-2054390800:Bayle]],
+40000800:Death Knight (Fog Rift Catacombs)
+41000800:Demi-Human Swordmaster Onze (Belurat Gaol)
+43000800:Chief Bloodfiend (Rivermouth Cave)
+43010800:Ancient Dragon-Man (Dragon Pit)
+2045440800:Ghostflame Dragon (Gravesite Plain)
+2046410800:Knight of the Solitary Gaol (Western Nameless Mausoleum)
+2046450800:Red Bear (Northern Nameless Mausoleum)
+20000800:Divine Beast Dancing Lion (Belurat, Tower Settlement)
+2048440800:Rellana, Twin Moon Knight (Castle Ensis)
+2049430800:Ghostflame Dragon (Scadu Altus)
+2049440800:Dryleaf Dane (Scadu Altus)
+2049450800:Ralva the Great Red Bear (Scadu Altus)
+2051440800:Rakshasa (Eastern Nameless Mausoleum)
+2051450800:Count Ymir, Mother of Fingers (Cathedral of Manus Metyr)
+2047450800:Black Knight Garrew (Fog Rift Fort)
+2049430850:Black Knight Edreed (Fort of Reprimand)
+25000800:Metyr, Mother of Fingers (Finger Ruins of Miyr)
+21000850:Golden Hippopotamus (Shadow Keep)
+21010800:Messmer the Impaler (Shadow Keep)
+2050480800:Scadutree Avatar (Scadutree Base)
+2049480800:Commander Gaius (Scaduview)
+2050470800:Tree Sentinel (Ambush) (Scaduview)
+2050480860:Tree Sentinel (Exposed) (Scaduview)
+2052480800:Fallingstar Beast (Scaduview)
+2049410800:Jagged Peak Drake (Foot of the Jagged Peak)
+2052400800:Jagged Peak Drake Duo (Foot of the Jagged Peak)
+2054390800:Bayle, the Dread (Jagged Peak)
+2054390850:Ancient Dragon Senessax (Jagged Peak)
+2047390800:Death Rite Bird (Charo's Hidden Grave)
+41020800:Lamenter (Lamenter's Gaol)
+2046380800:Dancer of Ranah (Southern Nameless Mausoleum)
+2046400800:Demi-Human Queen Marigga (Cerulean Coast)
+2048380850:Ghostflame Dragon (Cerulean Coast)
+22000800:Putrescent Knight (Stone Coffin Fissure)
+2052430800:Jori, Elder Inquisitor (Abyssal Woods)
+28000800:Midra, Lord of Frenzied Flame (Midra's Manse)
+40010800:Death Knight (Scorpion River Catacombs)
+2044470800:Rugalea the Great Red Bear (Rauh Base)
+2046460800:Divine Beast Dancing Lion (Ancient Ruins of Rauh)
+2044450800:Romina, Saint of the Bud (Ancient Ruins of Rauh)
+20010800:Promised Consort Radahn (Gate of Divinity)]],
 [[60360:Limgrave Colosseum
 60350:Caelid Colosseum
 60370:Leyndell Colosseum]]
