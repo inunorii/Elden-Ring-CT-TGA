@@ -61,7 +61,7 @@ end
 function getAbsoluteCoords(mapRelPos)
     local minfo = getMapInfo(mapRelPos.map)
      -- 3C = open world map, divided in 256x256 chunks.
-    if (minfo.id == 0x3C) then
+    if (minfo.id == 0x3C or minfo.id == 0x3D) then
         return {
             x = mapRelPos.x + 256 * minfo.gridXNo,
             y = mapRelPos.y,
@@ -73,7 +73,8 @@ function getAbsoluteCoords(mapRelPos)
     for id, addr in pairs(worldMapLegacyConv) do
         local mapConv = readWorldMapLegacyConvParam(addr)
         if (mapConv.srcAreaNo == minfo.id and
-            mapConv.dstAreaNo == 0x3C and
+            mapConv.dstAreaNo == 0x3C or
+            mapConv.dstAreaNo == 0x3D and
             mapConv.srcGridXNo == minfo.gridXNo and -- These aren't really grid coords,  more like dungeon number for the same type
             mapConv.srcGridZNo == minfo.gridZNo) then
             -- Perform conversion to open world coords by rebasing to open world map origin
