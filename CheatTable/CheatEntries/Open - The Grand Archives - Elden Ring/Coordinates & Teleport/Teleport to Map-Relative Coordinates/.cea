@@ -73,8 +73,7 @@ function getAbsoluteCoords(mapRelPos)
     for id, addr in pairs(worldMapLegacyConv) do
         local mapConv = readWorldMapLegacyConvParam(addr)
         if (mapConv.srcAreaNo == minfo.id and
-            mapConv.dstAreaNo == 0x3C or
-            mapConv.dstAreaNo == 0x3D and
+            (mapConv.dstAreaNo == 0x3C or mapConv.dstAreaNo == 0x3D) and
             mapConv.srcGridXNo == minfo.gridXNo and -- These aren't really grid coords,  more like dungeon number for the same type
             mapConv.srcGridZNo == minfo.gridZNo) then
             -- Perform conversion to open world coords by rebasing to open world map origin
