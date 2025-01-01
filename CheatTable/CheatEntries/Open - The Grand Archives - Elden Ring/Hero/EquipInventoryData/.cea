@@ -1,7 +1,8 @@
 {$lua}
 if syntaxcheck then return end
 [ENABLE]
-EquipInventoryDataIdx = allocateMemory(8, getAddress(process))
+EquipInventoryDataIdx = allocateMemory(12, getAddress(process))
+writeByte(EquipInventoryDataIdx + 5, -1)
 
 [DISABLE]
 deAlloc(EquipInventoryDataIdx)

@@ -1,5 +1,10 @@
 # Changelog
 ## [Unreleased]
+### Added
+ - Item Type filter for "Print items"
+ - Print items will now print item names, but it's slightly buggy
+   - upgraded items will display the same as unupgraded
+   - items without names will show incorrectly
 ### Changed
  - Supported version to v1.16.0
 ### Fixed
