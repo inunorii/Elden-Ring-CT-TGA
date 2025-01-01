@@ -5,7 +5,7 @@ local flagsBaseOn = {
 -- Choosing to enter Ranni's service
 1034509410,
 1034509412,
-1034500738,
+-- 1034500738, (needs to be disabled)
 1034500732,
 1034500736,
 1034505015,
@@ -49,17 +49,9 @@ local flagsBaseOn = {
 
 local flagsOn = {flagsBaseOn}
 local flagsOff = 1034500738 -- Toggled on when choosing to enter, and off when exhausting dialogue
+ef.setFlag(flagsOff, 0)
 ef.batchSetFlags(flagsOn, 1, "RanniFlagsThread")
+disableMemrec(memrec, function() return not ef.RanniFlagsThread end)
 
-local t = createTimer(nil)
-t.interval = 100
-t.onTimer = function (t)
-    if function() return not ef.RanniFlagsThread end then
-        ef.setFlag(flagsOff, 0)
-        -- lua_warp(1034502950) -- [Liurnia of the Lakes] Ranni's Rise. Not necessary, works instantly without it
-        disableMemrec(memrec)
-    end
-end
 [DISABLE]
 ef.RanniFlagsThread = false
-t.destroy()
