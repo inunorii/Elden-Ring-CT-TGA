@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable>
+	<CheatEntries>
+		<CheatEntry>
+			<ID>108257</ID>
+			<Description>"Filter Item Type"</Description>
+			<DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">-1:All
+0:Weapon only
+1:Protector only
+2:Accessory only
+4:Goods only
+8:Gem only
+</DropDownList>
+			<LastState Value="0" RealAddress="13FFC0005"/>
+			<ShowAsSigned>1</ShowAsSigned>
+			<VariableType>Byte</VariableType>
+			<Address>EquipInventoryDataIdx+5</Address>
+		</CheatEntry>
+	</CheatEntries>
+</CheatTable>

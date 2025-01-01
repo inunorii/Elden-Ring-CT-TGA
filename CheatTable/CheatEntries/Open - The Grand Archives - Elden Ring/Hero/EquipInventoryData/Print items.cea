@@ -2,6 +2,7 @@
 if syntaxcheck then return end
 [ENABLE]
 local invChoice = readByte(EquipInventoryDataIdx + 4)
+local itemTypeFilter = readByte(EquipInventoryDataIdx + 5, true)
 local inv = getInvData(invChoice)
 local keyOffset = inv[2] * 0x10
 
@@ -19,24 +20,36 @@ local invName = {
 	[3] = "Key Items (Storage Chest)"
 }
 
+local function getItemName(itemId, itemType)
+	if itemType == 0 then itemId = math.floor(itemId / 100) * 100 end  -- temporary until item namer is fixed
+	local f = {
+		[0] = getWeaponName(itemId):read(),
+		[1] = getProtectorName(itemId):read(),
+		[2] = getAccessoryName(itemId):read(),
+		[4] = getGoodsName(itemId):read(),
+		[8] = "?GemName?"
+	}
+	return f[itemType] or "?InvalidName?"
+end
+
 print("---- "..invName[invChoice].." ----")
 local itemCount = 0
 for i=0,inv[3] do
-    local item = getAddress(inventoryList + i * 0x18)
-    local GaItemHandle = readInteger(item)
-    local itemId = readInteger(item + 4)
-    local itemType = getItemType(itemId)
+	local item = getAddress(inventoryList + i * 0x18)
+	local GaItemHandle = readInteger(item)
+	local itemId = readInteger(item + 4)
+	local itemType = getItemType(itemId)
 	local quantity = readInteger(item + 8)
-    if itemType[3] ~= -1 then
+	if (itemTypeFilter == -1 or itemType[3] == itemTypeFilter) and itemType[3] ~= -1 then
 		itemId = itemId - itemType[1]
+		local itemName = getItemName(itemId, itemType[3])
 
 		if itemId ~= nil and itemId <= 0x8FFFFFFF and itemId ~= 0xFFFFFFFF and quantity ~= nil and GaItemHandle ~= 0 then
-		print(string.format("#%d | Type: %s | ID: %d | Quantity: %d", itemCount, itemType[2], itemId, quantity))
-		itemCount = itemCount + 1
+			print(string.format("#%d | Name: %s | Type: %s | ID: %d | Quantity: %d", i, itemName, itemType[2], itemId, quantity))
+            itemCount = itemCount + 1
 		end
 	end
-
-    if itemCount >= inventoryNum then break end
+	if itemCount >= inventoryNum then break end
 end
 --print(string.format("itemCount: %d | inventoryNum: %d",itemCount,inventoryNum))
 
