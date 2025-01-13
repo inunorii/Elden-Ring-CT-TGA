@@ -1,0 +1,26 @@
+{$lua}
+if syntaxcheck then return end
+
+[ENABLE]
+local flagsBase = {
+330,      --State of Sealing Tree
+20010196  --Triggers cutscene for Sealing Tree, which will immediately also reset the Sealing Tree
+}
+
+local messmerFlag = 9146 --Defeat the boss Messmer, the Impaler (this is the flag for his loot, not his death)
+local flags = {flagsBase}
+ef.batchSetFlags(flags, 0, "SealingTreeThread")
+if ef.getFlag(messmerFlag):getValue() then --Messmer's given his loot
+    ItemGive(0x401EA3D5, 1, 0, 0, -1) --Give Messmer's Kindling to prevent a softlock
+end
+local t = createTimer(nil)
+t.interval = 100
+t.onTimer = function (t)
+    if function() return not ef.SealingTreeThread end then
+        lua_warp(2044462950) --Church of the Bud: Main Entrance
+        disableMemrec(memrec)
+        t.destroy()
+    end
+end
+[DISABLE]
+ef.SealingTreeThread = false
