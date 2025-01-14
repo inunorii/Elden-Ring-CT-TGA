@@ -12,6 +12,7 @@
  - "Print items" in EquipInventoryData
  - by [Umgak](https://github.com/Umgak):
    - Teleport to Map-relative Coordinates for Shadow of the Erdtree
+   - Documented boss flags in Event Flags by ID
  - by [Dasaav](https://github.com/Dasaav-dsv)
    - Rewrite of Event Flags by ID to update in real-time and prevent unwanted flag changes, as well as support for separating DLC flags
 
