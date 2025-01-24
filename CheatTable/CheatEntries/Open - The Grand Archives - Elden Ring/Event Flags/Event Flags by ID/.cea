@@ -967,7 +967,170 @@ local flagsBase = {
 1254560800:Borealis the Freezing Fog (Mountaintops of the Giants)]],
 ["Colosseums"] = [[60360:Limgrave Colosseum
 60350:Caelid Colosseum
-60370:Leyndell Colosseum]]
+60370:Leyndell Colosseum]],
+["Ashes of War"] = [[65800:Ash of War Duplication Menu Visble
+65810:Ash of War: Impaling Thrust
+65811:Ash of War: Piercing Fang
+65812:Ash of War: Spinning Slash
+65813:Ash of War: Repeating Thrust
+65814:Ash of War: Double Slash
+65815:Ash of War: Unsheathe
+65816:Ash of War: Sword Dance
+65818:Ash of War: Quickstep
+65819:Ash of War: Bloodhound's Step
+65820:Ash of War: Lion's Claw
+65821:Ash of War: Stamp (Upward Cut)
+65822:Ash of War: Stamp (Sweep)
+65823:Ash of War: Wild Strikes
+65824:Ash of War: Earthshaker
+65825:Ash of War: Kick
+65826:Ash of War: Ground Slam
+65827:Ash of War: Hoarah Loux's Earthshaker
+65828:Ash of War: Barbaric Roar
+65829:Ash of War: War Cry
+65830:Ash of War: Troll's Roar
+65831:Ash of War: Braggart's Roar
+65832:Ash of War: Endure
+65833:Ash of War: Charge Forth
+65834:Ash of War: Square Off
+65835:Ash of War: Giant Hunt
+65836:Ash of War: Spinning Strikes
+65837:Ash of War: Storm Assault
+65838:Ash of War: Stormcaller
+65839:Ash of War: Storm Blade
+65840:Ash of War: Vacuum Strike
+65841:Ash of War: Storm Stomp
+65842:Ash of War: Determination
+65843:Ash of War: Royal Knight's Resolve
+65844:Ash of War: Prelate's Charge
+65845:Ash of War: Eruption
+65846:Ash of War: Flaming Strike
+65847:Ash of War: Black Flame Tornado
+65848:Ash of War: Flame of the Redmanes
+65849:Ash of War: Thunderbolt
+65850:Ash of War: Lightning Slash
+65851:Ash of War: Lightning Ram
+65852:Ash of War: Loretta's Slash
+65853:Ash of War: Spinning Weapon
+65854:Ash of War: Glintblade Phalanx
+65855:Ash of War: Glintstone Pebble
+65856:Ash of War: Gravitas
+65857:Ash of War: Carian Grandeur
+65858:Ash of War: Carian Greatsword
+65859:Ash of War: Waves of Darkness
+65860:Ash of War: Cragblade
+65861:Ash of War: Sacred Blade
+65862:Ash of War: Prayerful Strike
+65863:Ash of War: Golden Land
+65864:Ash of War: Sacred Ring of Light
+65865:Ash of War: Golden Slam
+65866:Ash of War: Golden Vow
+65867:Ash of War: Sacred Order
+65868:Ash of War: Shared Order
+65869:Ash of War: Beast's Roar
+65870:Ash of War: Phantom Slash
+65871:Ash of War: Spectral Lance
+65872:Ash of War: Raptor of the Mists
+65873:Ash of War: White Shadow's Lure
+65874:Ash of War: Poison Moth Flight
+65875:Ash of War: Poison Mist
+65876:Ash of War: Blood Tax
+65877:Ash of War: Bloody Slash
+65878:Ash of War: Lifesteal Fist
+65879:Ash of War: Blood Blade
+65880:Ash of War: Assassin's Gambit
+65881:Ash of War: Seppuku
+65882:Ash of War: Ice Spear
+65883:Ash of War: Chilling Mist
+65884:Ash of War: Hoarfrost Stomp
+65885:Ash of War: No Skill
+65886:Ash of War: Shield Bash
+65887:Ash of War: Shield Crash
+65888:Ash of War: Barricade Shield
+65889:Ash of War: Parry
+65890:Ash of War: Carian Retaliation
+65891:Ash of War: Storm Wall
+65892:Ash of War: Golden Parry
+65893:Ash of War: Thops's Barrier
+65894:Ash of War: Holy Ground
+65895:Ash of War: Vow of the Indomitable
+65896:Ash of War: Barrage
+65897:Ash of War: Mighty Shot
+65898:Ash of War: Sky Shot
+65899:Ash of War: Through and Through
+65900:Ash of War: Enchanted Shot
+65901:Ash of War: Rain of Arrows]],
+["Bell Bearings"] = [[60701:NG+ Persistence: Smithing-Stone Miner's Bell Bearing [1]
+60702:NG+ Persistence: Smithing-Stone Miner's Bell Bearing [2]
+60703:NG+ Persistence: Smithing-Stone Miner's Bell Bearing [3]
+60704:NG+ Persistence: Smithing-Stone Miner's Bell Bearing [4]
+60705:NG+ Persistence: Somberstone Miner's Bell Bearing [1]
+60706:NG+ Persistence: Somberstone Miner's Bell Bearing [2]
+60707:NG+ Persistence: Somberstone Miner's Bell Bearing [3]
+60708:NG+ Persistence: Somberstone Miner's Bell Bearing [4]
+60709:NG+ Persistence: Somberstone Miner's Bell Bearing [5]
+60710:NG+ Persistence: Glovewort Picker's Bell Bearing [1]
+60711:NG+ Persistence: Glovewort Picker's Bell Bearing [2]
+60712:NG+ Persistence: Glovewort Picker's Bell Bearing [3]
+60713:NG+ Persistence: Ghost-Glovewort Picker's Bell Bearing [1]
+60714:NG+ Persistence: Ghost-Glovewort Picker's Bell Bearing [2]
+60715:NG+ Persistence: Ghost-Glovewort Picker's Bell Bearing [3]
+60730:NG+ Persistence: Bone-Peddler's Bell Bearing
+60731:NG+ Persistence: Meat Peddler's Bell Bearing
+60732:NG+ Persistence: Medicine Peddler's Bell Bearing
+60733:NG+ Persistence: Gravity Stone Peddler's Bell Bearing
+11109710:Pidia's Bell Bearing
+11109711:Seluvis's Bell Bearing
+11109712:Patches' Bell Bearing
+11109713:Sellen's Bell Bearing
+11109715:D's Bell Bearing
+11109716:Bernahl's Bell Bearing
+11109717:Miriel's Bell Bearing
+11109718:Gostoc's Bell Bearing
+11109719:Thops's Bell Bearing
+11109720:Kalé's Bell Bearing
+11109721:Nomadic Merchant's Bell Bearing [1]
+11109722:Nomadic Merchant's Bell Bearing [2]
+11109723:Nomadic Merchant's Bell Bearing [3]
+11109724:Nomadic Merchant's Bell Bearing [4]
+11109725:Nomadic Merchant's Bell Bearing [5]
+11109726:Isolated Merchant's Bell Bearing [1]
+11109727:Isolated Merchant's Bell Bearing [2]
+11109728:Nomadic Merchant's Bell Bearing [6]
+11109729:Hermit Merchant's Bell Bearing [1]
+11109730:Nomadic Merchant's Bell Bearing [7]
+11109731:Nomadic Merchant's Bell Bearing [8]
+11109732:Nomadic Merchant's Bell Bearing [9]
+11109733:Nomadic Merchant's Bell Bearing [10]
+11109735:Isolated Merchant's Bell Bearing [3]
+11109736:Hermit Merchant's Bell Bearing [2]
+11109737:Abandoned Merchant's Bell Bearing
+11109738:Hermit Merchant's Bell Bearing [3]
+11109739:Imprisoned Merchant's Bell Bearing
+11109740:Iji's Bell Bearing
+11109741:Rogier's Bell Bearing
+11109742:Blackguard's Bell Bearing
+11109743:Corhyn's Bell Bearing
+11109744:Gowry's Bell Bearing
+11109745:Bone Peddler's Bell Bearing
+11109746:Meat Peddler's Bell Bearing
+11109747:Medicine Peddler's Bell Bearing
+11109748:Gravity Stone Peddler's Bell Bearing
+11109751:Smithing-Stone Miner's Bell Bearing [1]
+11109752:Smithing-Stone Miner's Bell Bearing [2]
+11109753:Smithing-Stone Miner's Bell Bearing [3]
+11109754:Smithing-Stone Miner's Bell Bearing [4]
+11109755:Somberstone Miner's Bell Bearing [1]
+11109756:Somberstone Miner's Bell Bearing [2]
+11109757:Somberstone Miner's Bell Bearing [3]
+11109758:Somberstone Miner's Bell Bearing [4]
+11109759:Somberstone Miner's Bell Bearing [5]
+11109760:Glovewort Picker's Bell Bearing [1]
+11109761:Glovewort Picker's Bell Bearing [2]
+11109762:Glovewort Picker's Bell Bearing [3]
+11109763:Ghost-Glovewort Picker's Bell Bearing [1]
+11109764:Ghost-Glovewort Picker's Bell Bearing [2]
+11109765:Ghost-Glovewort Picker's Bell Bearing [3] ]]
 }
 
 local flagsDlc = {
@@ -1169,7 +1332,49 @@ local flagsDlc = {
 2044470800:Rugalea the Great Red Bear (Rauh Base)
 2046460800:Divine Beast Dancing Lion (Ancient Ruins of Rauh)
 2044450800:Romina, Saint of the Bud (Ancient Ruins of Rauh)
-20010800:Promised Consort Radahn (Enir-Ilim)]]
+20010800:Promised Consort Radahn (Enir-Ilim)]],
+["Ashes of War"] = [[65910:Ash of War: Dryleaf Whirlwind
+65911:Ash of War: Aspects of the Crucible: Wings
+65912:Ash of War: Spinning Gravity Thrust
+65913:Ash of War: Palm Blast
+65914:Ash of War: Piercing Throw
+65915:Ash of War: Scattershot Throw
+65916:Ash of War: Wall of Sparks
+65917:Ash of War: Rolling Sparks
+65918:Ash of War: Raging Beast
+65919:Ash of War: Savage Claws
+65920:Ash of War: Blind Spot
+65921:Ash of War: Swift Slash
+65922:Ash of War: Overhead Stance
+65923:Ash of War: Wing Stance
+65924:Ash of War: Blinkbolt
+65925:Ash of War: Flame Skewer
+65926:Ash of War: Savage Lion's Claw
+65927:Ash of War: Divine Beast Frost Stomp
+65928:Ash of War: Flame Spear
+65929:Ash of War: Carian Sovereignty
+65930:Ash of War: Shriek of Sorrow
+65931:Ash of War: Ghostflame Call
+65932:Ash of War: The Poison Flower Blooms Twice
+65933:Ash of War: Igon's Drake Hunt
+65934:Ash of War: Shield Strike]],
+["Bell Bearings"] = [[60742:NG+ Persistence: Herbalist's Bell Bearing
+60743:NG+ Persistence: Mushroom-Seller's Bell Bearing [1]
+60744:NG+ Persistence: Mushroom-Seller's Bell Bearing [2]
+60745:NG+ Persistence: Greasemonger's Bell Bearing
+60746:NG+ Persistence: Moldmonger's Bell Bearing
+60748:NG+ Persistence: Spell-Machinist Bell Bearing
+60749:NG+ Persistence: String-seller's Bell Bearing
+11109790:Moore's Bell Bearing
+11109791:Ymir's Bell Bearing
+11109792:Herbalist's Bell Bearing
+11109793:Mushroom-Seller's Bell Bearing [1]
+11109794:Mushroom-Seller's Bell Bearing [2]
+11109795:Greasemonger's Bell Bearing
+11109796:Moldmonger's Bell Bearing
+11109797:Igon's Bell Bearing
+11109798:Spell-Machinist Bell Bearing
+11109799:String-seller's Bell Bearing]]
 }
 
 if isOwnDlc(1) then
